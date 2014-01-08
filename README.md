@@ -1,5 +1,5 @@
-**
 Automatic Browsing Android Applicaiton
+==================
 
-**
-Author: Haokun Luo (haokun@umich.edu)
+- Author: Haokun Luo (haokun@umich.edu)
+
