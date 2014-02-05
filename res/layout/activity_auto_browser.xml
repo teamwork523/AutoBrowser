@@ -10,7 +10,93 @@
         android:id="@+id/margin1"
         android:gravity="center_horizontal"
         android:layout_width="match_parent"
-        android:layout_height="150dp"  >
+        android:layout_height="100dp"  >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:focusable="true" android:focusableInTouchMode="true"
+        android:id="@+id/timers"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        
+        <TextView
+            android:id="@+id/inter_pair_time_label"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#000066"
+            android:text="Inter-pair Time (s):" />
+        
+        <EditText
+            android:id="@+id/inter_pair_time_value"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text="@string/inter_pair_time" />
+        
+        <TextView
+            android:id="@+id/intra_pair_time_label"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#000066"
+            android:text="Intra-pair Time (s):" />
+        
+        <EditText
+            android:id="@+id/intra_pair_time_value"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text="@string/intra_pair_time" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/margin2"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"  >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:focusable="true" android:focusableInTouchMode="true"
+        android:id="@+id/timers"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        
+        <TextView
+            android:id="@+id/iteration_number_label"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#000066"
+            android:text="Number of Repeat:" />
+        
+        <EditText
+            android:id="@+id/iteration_number_value"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="@string/iteration_number" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/margin3"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"  >
     </LinearLayout>
     
     <LinearLayout
